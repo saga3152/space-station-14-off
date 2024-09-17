@@ -942,6 +942,16 @@
     SnowWhite: 3
 
 - type: reaction
+  id: SodaWater
+  reactants:
+    Water:
+      amount: 5
+    CarbonDioxide:
+      amount: 1
+  products:
+    SodaWater: 6
+
+- type: reaction
   id: SoyLatte
   reactants:
     Coffee:
