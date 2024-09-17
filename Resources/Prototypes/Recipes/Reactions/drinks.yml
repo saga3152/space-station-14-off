@@ -1157,6 +1157,18 @@
     TheMartinez: 6
 
 - type: reaction
+  id: Vodka
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Ethanol:
+      amount: 1
+    Water:
+      amount: 1
+  products:
+    Vodka: 2
+
+- type: reaction
   id: WaterBreakdown
   source: true
   requiredMixerCategories:
